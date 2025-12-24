@@ -88,71 +88,69 @@ quantity INTEGER
 
 2️⃣ Data Import & Validation
 
-Imported CSV data into the database
+* Imported CSV data into the database
 
-Resolved UTF-8 encoding issues
+* Resolved UTF-8 encoding issues
 
-Verified schema and column consistency post-import
+* Verified schema and column consistency post-import
 
 3️⃣ Exploratory Data Analysis (EDA)
 
-Initial exploration included:
+* Initial exploration included:
 
-Total SKU count
+* Total SKU count
 
-Category-wise distribution
+* Category-wise distribution
 
-Null value checks
+* Null value checks
 
-In-stock vs out-of-stock comparison
+* In-stock vs out-of-stock comparison
 
-Identification of duplicate product names across SKUs
+* Identification of duplicate product names across SKUs
 
 4️⃣ Data Cleaning
 
 Key cleaning steps performed:
 
-Removed records with zero or invalid pricing
+1. Removed records with zero or invalid pricing
 
-Standardized price units (paise to rupees)
+2. Standardized price units (paise to rupees)
 
-Filtered inconsistent inventory records
+3. Filtered inconsistent inventory records
 
 5️⃣ Business-Oriented SQL Analysis
 
-SQL queries were written to answer business questions such as:
+1. SQL queries were written to answer business questions such as:
 
-Top products offering the highest discounts
+2. Top products offering the highest discounts
 
-High-MRP products currently out of stock
+3. High-MRP products currently out of stock
 
-Category-wise potential revenue estimation
+4. Category-wise potential revenue estimation
 
-Expensive products with minimal discounts
+5. Expensive products with minimal discounts
 
-Best value products using price-per-gram analysis
+6. Best value products using price-per-gram analysis
 
-Inventory weight distribution across categories
+7. Inventory weight distribution across categories
 
 📈 Key Insights
 
-Identified best-value SKUs based on discount and price efficiency
+1. Identified best-value SKUs based on discount and price efficiency
 
-Highlighted revenue-driving categories
+2. Highlighted revenue-driving categories
 
-Detected pricing and inventory gaps
+3. Detected pricing and inventory gaps
 
-Evaluated stock availability impact on premium products
+4. Evaluated stock availability impact on premium products
 
 🛠️ Tech Stack
 
-Database: PostgreSQL / MySQL
+* Database: MySQL
 
-Query Language: SQL
+* Query Language: SQL
 
-Data Source: CSV (Excel format)
-
-Tools: pgAdmin / MySQL Workbench
+* Data Source: CSV (Excel format)
 
 ▶️ How to Run the Project
 

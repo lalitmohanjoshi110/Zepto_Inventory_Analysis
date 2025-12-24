@@ -44,31 +44,47 @@ Category-level visibility strategies
 
 The main columns used in the analysis include:
 
-sku_id - Unique identifier for each SKU
+* sku_id - Unique identifier for each SKU
 
-name - Product name as shown on the app
+* name - Product name as shown on the app
 
-category - Product category (Fruits, Snacks, Beverages, etc.)
+* category - Product category (Fruits, Snacks, Beverages, etc.)
 
-mrp - Maximum Retail Price (originally in paise, converted to ₹)
+* mrp - Maximum Retail Price (originally in paise, converted to ₹)
 
-discountPercent - Discount applied on MRP
+* discountPercent - Discount applied on MRP
 
-discountedSellingPrice - Final selling price after discount (originally in paise, converted to ₹)
+* discountedSellingPrice - Final selling price after discount (originally in paise, converted to ₹)
 
-availableQuantity - Units available in inventory
+* availableQuantity - Units available in inventory
 
-weightInGms - Product weight in grams
+* weightInGms - Product weight in grams
 
-outOfStock - Boolean flag indicating stock availability 
+* outOfStock - Boolean flag indicating stock availability 
 
-quantity - Units per package
+* quantity - Units per package
 
 ## 🔄 Project Workflow
 
 1️⃣ Database & Table Creation
 
 A structured SQL table is created with appropriate data types, primary keys, and constraints to support accurate querying and analysis.
+
+```sql
+USE zepto_sql_project;
+create table zepto(
+sku_id SERIAL PRIMARY KEY,
+category varchar(120),
+name varchar(120) NOT NULL,		
+mrp NUMERIC(8,2),
+discountPercent NUMERIC(5,2),
+availableQuantity INTEGER,
+discountedSellingPrice NUMERIC(8,2),
+weightInGms INTEGER,
+outOfStock BOOLEAN,
+quantity INTEGER
+);
+```
 
 2️⃣ Data Import & Validation
 

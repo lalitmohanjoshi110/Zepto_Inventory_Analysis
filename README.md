@@ -15,7 +15,8 @@ The emphasis is on end-to-end analytical thinking—from raw data ingestion to b
 
 📁 Anyone building a strong analytics portfolio project
 
-🧩 Problem Statement
+
+## 🧩 Problem Statement
 
 E-commerce catalog data is often noisy and duplicated. This project simulates how analysts:
 
@@ -27,7 +28,7 @@ Analyze inventory availability
 
 Convert raw tables into business insights using SQL
 
-🗂️ Dataset Overview
+## 🗂️ Dataset Overview
 
 The dataset represents product SKUs listed on Zepto, sourced from Kaggle and designed to reflect real-world inventory behavior.
 
@@ -39,31 +40,32 @@ Discount variations
 
 Category-level visibility strategies
 
-🧾 Dataset Schema
+## 🧾 Dataset Schema
 
 The main columns used in the analysis include:
 
-sku_id – Unique identifier for each SKU
+sku_id - Unique identifier for each SKU
 
-name – Product name as shown on the app
+name - Product name as shown on the app
 
-category – Product category (Fruits, Snacks, Beverages, etc.)
+category - Product category (Fruits, Snacks, Beverages, etc.)
 
-mrp – Maximum Retail Price (₹)
+mrp - Maximum Retail Price (originally in paise, converted to ₹)
 
-discountPercent – Discount applied on MRP
+discountPercent - Discount applied on MRP
 
-discountedSellingPrice – Final selling price after discount (₹)
+discountedSellingPrice - Final selling price after discount (originally in paise, converted to ₹)
 
-availableQuantity – Units available in inventory
+availableQuantity - Units available in inventory
 
-weightInGms – Product weight in grams
+weightInGms - Product weight in grams
 
-outOfStock – Boolean flag indicating stock availability
+outOfStock - Boolean flag indicating stock availability 
 
-quantity – Units per package
+quantity - Units per package
 
-🔄 Project Workflow
+## 🔄 Project Workflow
+
 1️⃣ Database & Table Creation
 
 A structured SQL table is created with appropriate data types, primary keys, and constraints to support accurate querying and analysis.

@@ -5,7 +5,7 @@ This repository contains a hands-on SQL-based data analysis project built using 
 
 The emphasis is on end-to-end analytical thinking—from raw data ingestion to business-focused SQL analysis.
 
-🎯 Who This Project Is For
+## 🎯 Who This Project Is For
 
 📊 Data Analyst, Business Analyst, and Product Analyst aspirants
 
@@ -15,18 +15,17 @@ The emphasis is on end-to-end analytical thinking—from raw data ingestion to b
 
 📁 Anyone building a strong analytics portfolio project
 
-
 ## 🧩 Problem Statement
 
-E-commerce catalog data is often noisy and duplicated. This project simulates how analysts:
+1. E-commerce catalog data is often noisy and duplicated. This project simulates how analysts:
 
-Work with SKU-level product data
+2. Work with SKU-level product data
 
-Handle pricing inconsistencies and missing values
+3. Handle pricing inconsistencies and missing values
 
-Analyze inventory availability
+4. Analyze inventory availability
 
-Convert raw tables into business insights using SQL
+5. Convert raw tables into business insights using SQL
 
 ## 🗂️ Dataset Overview
 

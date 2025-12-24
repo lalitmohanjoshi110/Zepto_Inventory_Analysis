@@ -1,5 +1,5 @@
-🛍️ Zepto E-commerce Inventory Analysis (SQL Project)
-📖 About the Project
+# 🛍️ Zepto E-commerce Inventory Analysis (SQL Project)
+## 📖 About the Project
 
 This repository contains a hands-on SQL-based data analysis project built using an e-commerce inventory dataset inspired by Zepto, one of India’s leading quick-commerce platforms. The project replicates how data and product analysts work with real, imperfect business data to extract actionable insights.
 
